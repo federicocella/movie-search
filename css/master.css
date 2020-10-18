@@ -11,15 +11,28 @@
     margin-bottom: 30px;
     height: 40px;
     font-size: medium;
-    border: 3px solid rgb(197, 197, 197);
+    border: 2px solid white;
     box-sizing: border-box;
+    text-indent: 0.5em;
+    color: white;
+    background-color: black;
+}
+.searchbar:focus {
+    outline: none;
 }
 h2 {
     margin-bottom: 5px;
 }
 h1 {
-    font-size: 40px;
+    font-size: 50px;
 }
 .entry {
     margin-bottom: 30px;
+}
+.entry span {
+    color: red;
+}
+body {
+    background-color: black;
+    color: white;
 }

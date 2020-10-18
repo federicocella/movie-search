@@ -12,7 +12,7 @@ function printResults() {
                 <h2>
                     ${entry.Title}
                 </h2>
-                ${entry.Year}
+                <span>${entry.Year}</span>
                 <br>
                 </div>
                 `;
